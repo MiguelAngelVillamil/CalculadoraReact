@@ -1,0 +1,27 @@
+.botonOperador {
+    height: 70px;
+    width: 70px;
+    display: flex;
+    flex: 1 1;
+    
+    align-items: center;
+    justify-content: center;
+    
+    font-family: monospace;
+    font-weight: lighter;
+    font-size: 35px;
+
+    background-color: rgb(31, 31, 31);
+    color: chartreuse;
+    border-radius: 70px;
+    border: none;
+
+    padding: 0px;
+    margin: 4px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.botonOperador:hover {
+    background-color: #5a01a7;
+}

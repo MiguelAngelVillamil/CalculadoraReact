@@ -1,0 +1,17 @@
+.input {
+    height: 75px;
+    margin-bottom: 20px;
+    padding: 30px 15px 0px 0px;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    font-family: monospace;
+    font-weight: normal;
+    font-size: 40px;
+
+    background-color: black;
+    color: white;
+    border-bottom: 1px solid rgb(31, 31, 31);
+}
