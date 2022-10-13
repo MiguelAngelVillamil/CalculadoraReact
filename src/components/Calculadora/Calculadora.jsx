@@ -32,12 +32,6 @@ export default function Calculadora() {
     let parentesisAbiertos = (operacion.match(/\(/g) || []).length;
     let parentesisCerrados = (operacion.match(/\)/g) || []).length;
     let diff = parentesisAbiertos - parentesisCerrados;
-    console.log(`
-      abiertos: ${parentesisAbiertos}
-      cerrados: ${parentesisCerrados}
-      diff: ${parentesisAbiertos - parentesisCerrados}
-      `);
-
     if (diff > 0) {
       for (let i = 0; i < diff; i++) {
         operacion += ")";
