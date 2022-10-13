@@ -3,17 +3,26 @@
     padding: 10px;
     background: #dde1e7;
     font-family: Montserrat;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    padding: 0;
 }
 
-.contenedorPrincipal {
-    width: auto;
+.calculadora {
+    width: 320px;
     height: auto;
     padding: 14px;
     background: #dde1e7;
     border-radius: 15px;
+
+    
+    position: absolute;
+    top: 55vh;
+    left: 50vw;
+    transform: translate(-50%, -50%);
+}
+
+.nav {
+    background-color: red;
+
     box-shadow: -5px -5px 9px rgba(255,255,255,0.45), 5px 5px 9px rgba(94,104,121,0.3);
+
 }
