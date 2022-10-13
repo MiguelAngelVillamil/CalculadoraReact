@@ -11,7 +11,8 @@
     font-weight: normal;
     font-size: 40px;
 
-    background-color: black;
-    color: white;
-    border-bottom: 1px solid rgb(31, 31, 31);
+    background-color: rgba(233, 233, 233, 0.767);
+    color: rgb(0, 0, 0);
+    border-bottom: 1px solid rgb(255, 255, 255);
+    box-shadow: inset -5px -5px 9px rgba(255,255,255,0.45), inset 5px 5px 9px rgba(94,104,121,0.3);
 }

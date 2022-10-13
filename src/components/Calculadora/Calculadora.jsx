@@ -23,28 +23,11 @@ export default function Calculadora() {
   const calcularResultado = () => {
     
     if(display){
-      let operacion = checkOperacion(display);
-      operacion ? setDisplay(evaluate(display)) : setDisplay("Syntax Error")
+      setDisplay(evaluate(display))
     } 
   }
-
-  const checkOperacion = (operacion) => {
-    let parentesisAbiertos = (operacion.match(/\(/g) || []).length;
-    let parentesisCerrados = (operacion.match(/\)/g) || []).length;
-    let diff = parentesisAbiertos - parentesisCerrados;
-    if (diff > 0) {
-      for (let i = 0; i < diff; i++) {
-        operacion += ")";
-      }
-    } else if (diff < 0) {
-      setDisplay("Syntax Error");
-      return null;
-    }
-    return operacion;
-  };
-
   return (
-    <div>
+    <div className='calculadora'>
 
       <Pantalla input={display}/>
 
