@@ -1,7 +1,7 @@
 .App {
     height: 100vh;
     padding: 10px;
-    background-color: black;
+    background: #dde1e7;
     font-family: Montserrat;
     display: flex;
     flex-wrap: wrap;
@@ -13,7 +13,7 @@
     width: auto;
     height: auto;
     padding: 14px;
-    background-color: black;
+    background: #dde1e7;
     border-radius: 15px;
-    border: 1px solid white;
+    box-shadow: -5px -5px 9px rgba(255,255,255,0.45), 5px 5px 9px rgba(94,104,121,0.3);
 }
