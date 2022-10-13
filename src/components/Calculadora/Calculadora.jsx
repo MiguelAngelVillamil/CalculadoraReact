@@ -27,7 +27,7 @@ export default function Calculadora() {
     } 
   }
   return (
-    <div>
+    <div className='calculadora'>
 
       <Pantalla input={display}/>
 
