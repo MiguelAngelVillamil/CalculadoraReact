@@ -1,4 +1,4 @@
-.botonNumero {
+.botonNumeroVictor {
     height: 70px;
     width: 70px;
     display: flex;
@@ -24,6 +24,30 @@
     box-shadow: -5px -5px 9px rgba(255,255,255,0.45), 5px 5px 9px rgba(94,104,121,0.3);
 }
 
-.botonNumero:hover {
+.botonNumeroAngel {
+    height: 70px;
+    width: 70px;
+    display: flex;
+    flex: 1 1;
+
+    align-items: center;
+    justify-content: center;
+
+    font-family: monospace;
+    font-weight: lighter;
+    font-size: 35px;
+
+    background-color: rgb(31, 31, 31);
+    color: whitesmoke;
+    border-radius: 70px;
+    border: none;
+
+    padding: 0px;
+    margin: 4px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.botonNumeroVictor:hover {
     box-shadow: inset -5px -5px 9px rgba(255,255,255,0.45), inset 5px 5px 9px rgba(94,104,121,0.3);
 }
