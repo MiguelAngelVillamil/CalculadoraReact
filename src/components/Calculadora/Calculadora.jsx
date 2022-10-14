@@ -7,7 +7,7 @@ import BotonClear from '../BotonClear/BotonClear';
 import BotonOperador from '../BotonOperador/BotonOperador';
 import BotonIgual from '../BotonIgual/BotonIgual';
 
-export default function Calculadora() {
+export default function Calculadora({ clase }) {
 
   const [display, setDisplay] = useState("");
 
@@ -43,43 +43,43 @@ export default function Calculadora() {
   };
 
   return (
-    <div>
+    <div className={"calculadora" + clase}>
 
-      <Pantalla input={display}/>
+      <Pantalla clase={clase} input={display}/>
 
-      <div className='fila'>
-        <BotonClear manejarClick={() => setDisplay("")}/>
-        <BotonOperador manejarClick={agregarCaracter}>(</BotonOperador>
-        <BotonOperador manejarClick={agregarCaracter}>)</BotonOperador>
-        <BotonOperador manejarClick={agregarCaracter}>/</BotonOperador>
+      <div className={'fila' + clase}>
+        <BotonClear clase={clase} manejarClick={() => setDisplay("")}/>
+        <BotonOperador clase={clase} manejarClick={agregarCaracter}>)</BotonOperador>
+        <BotonOperador clase={clase} manejarClick={agregarCaracter}>(</BotonOperador>
+        <BotonOperador clase={clase} manejarClick={agregarCaracter}>/</BotonOperador>
       </div>
 
-      <div className='fila'>
-        <BotonNumero manejarClick={agregarCaracter}>7</BotonNumero>
-        <BotonNumero manejarClick={agregarCaracter}>8</BotonNumero>
-        <BotonNumero manejarClick={agregarCaracter}>9</BotonNumero>
-        <BotonOperador manejarClick={agregarCaracter}>x</BotonOperador>
+      <div className={'fila' + clase}>
+        <BotonNumero clase={clase} manejarClick={agregarCaracter}>7</BotonNumero>
+        <BotonNumero clase={clase} manejarClick={agregarCaracter}>8</BotonNumero>
+        <BotonNumero clase={clase} manejarClick={agregarCaracter}>9</BotonNumero>
+        <BotonOperador clase={clase} manejarClick={agregarCaracter}>x</BotonOperador>
       </div>
 
-      <div className='fila'>
-        <BotonNumero manejarClick={agregarCaracter}>4</BotonNumero>
-        <BotonNumero manejarClick={agregarCaracter}>5</BotonNumero>
-        <BotonNumero manejarClick={agregarCaracter}>6</BotonNumero>
-        <BotonOperador manejarClick={agregarCaracter}>-</BotonOperador>
+      <div className={'fila' + clase}>
+        <BotonNumero clase={clase} manejarClick={agregarCaracter}>4</BotonNumero>
+        <BotonNumero clase={clase} manejarClick={agregarCaracter}>5</BotonNumero>
+        <BotonNumero clase={clase} manejarClick={agregarCaracter}>6</BotonNumero>
+        <BotonOperador clase={clase} manejarClick={agregarCaracter}>-</BotonOperador>
       </div>
 
-      <div className='fila'>
-        <BotonNumero manejarClick={agregarCaracter}>1</BotonNumero>
-        <BotonNumero manejarClick={agregarCaracter}>2</BotonNumero>
-        <BotonNumero manejarClick={agregarCaracter}>3</BotonNumero>
-        <BotonOperador manejarClick={agregarCaracter}>+</BotonOperador>
+      <div className={'fila' + clase}>
+        <BotonNumero clase={clase} manejarClick={agregarCaracter}>1</BotonNumero>
+        <BotonNumero clase={clase} manejarClick={agregarCaracter}>2</BotonNumero>
+        <BotonNumero clase={clase} manejarClick={agregarCaracter}>3</BotonNumero>
+        <BotonOperador clase={clase} manejarClick={agregarCaracter}>+</BotonOperador>
       </div>
 
-      <div className='fila'>
-        <BotonNumero manejarClick={agregarCaracter}>,</BotonNumero>
-        <BotonNumero manejarClick={agregarCaracter}>0</BotonNumero>
-        <BotonNumero manejarClick={agregarCaracter}>.</BotonNumero>
-        <BotonIgual manejarClick={calcularResultado}/>
+      <div className={'fila' + clase}>
+        <BotonNumero clase={clase} manejarClick={agregarCaracter}>,</BotonNumero>
+        <BotonNumero clase={clase} manejarClick={agregarCaracter}>0</BotonNumero>
+        <BotonNumero clase={clase} manejarClick={agregarCaracter}>.</BotonNumero>
+        <BotonIgual clase={clase} manejarClick={calcularResultado}/>
       </div>
 
     </div>
