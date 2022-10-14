@@ -24,7 +24,7 @@ export default function Calculadora() {
     
     if(display){
       let operacion = checkOperacion(display);
-      operacion ? setDisplay(evaluate(display)) : setDisplay("Syntax Error")
+      operacion ? setDisplay(evaluate(operacion)) : setDisplay("Syntax Error")
     } 
   }
 
@@ -37,7 +37,6 @@ export default function Calculadora() {
         operacion += ")";
       }
     } else if (diff < 0) {
-      setDisplay("Syntax Error");
       return null;
     }
     return operacion;
