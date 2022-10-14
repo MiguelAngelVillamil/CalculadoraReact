@@ -6,14 +6,13 @@
     padding: 0;
 }
 
-.calculadora {
+.calculadoraVictor {
     width: 320px;
     height: auto;
     padding: 14px;
     background: #dde1e7;
     border-radius: 15px;
 
-    
     position: absolute;
     top: 55vh;
     left: 50vw;

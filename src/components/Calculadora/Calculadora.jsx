@@ -7,7 +7,7 @@ import BotonClear from '../BotonClear/BotonClear';
 import BotonOperador from '../BotonOperador/BotonOperador';
 import BotonIgual from '../BotonIgual/BotonIgual';
 
-export default function Calculadora() {
+export default function Calculadora({ clase }) {
 
   const [display, setDisplay] = useState("");
 
@@ -27,7 +27,7 @@ export default function Calculadora() {
     } 
   }
   return (
-    <div className='calculadora'>
+    <div className={clase}>
 
       <Pantalla input={display}/>
 
