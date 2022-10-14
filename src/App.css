@@ -1,7 +1,8 @@
 .App {
     height: 100vh;
     padding: 10px;
-    background: #dde1e7;
+    background-image: url(../public/coding.gif);
+    background-size: cover;
     font-family: Montserrat;
     padding: 0;
 }
@@ -13,6 +14,21 @@
     background: #dde1e7;
     border-radius: 15px;
 
+    display: block;
+    position: absolute;
+    top: 55vh;
+    left: 50vw;
+    transform: translate(-50%, -50%);
+}
+
+.calculadoraAngel {
+    width: 320px;
+    height: auto;
+    padding: 14px;
+    background-color: black;
+    border-radius: 15px;
+    border: 1px solid white;
+    
     display: block;
     position: absolute;
     top: 55vh;

@@ -1,10 +1,10 @@
 import React from 'react';
 import './Pantalla.css'
 
-export default function Pantalla( {input} ) {
+export default function Pantalla( {input, clase} ) {
 
     return (
-        <div className='input'>
+        <div className={'input' + clase}>
             {input}
         </div>
     );

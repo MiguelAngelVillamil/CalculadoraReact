@@ -12,6 +12,7 @@ export default function App() {
 
       <Routes>
         <Route path="/victor" element={<Calculadora clase={"Victor"} />} />
+        <Route path="/angel" element={<Calculadora clase={"Angel"} />} />
       </Routes>
     
     </div>

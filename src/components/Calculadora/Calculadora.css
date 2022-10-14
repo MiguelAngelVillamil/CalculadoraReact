@@ -1,9 +1,18 @@
-.fila {
+.filaVictor {
     margin: 4px;
     display: flex;
     align-items: center;
     justify-content: center;
 
     background-color: #dde1e7;
+}
+
+.filaAngel {
+    margin: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: black;
 }
 
