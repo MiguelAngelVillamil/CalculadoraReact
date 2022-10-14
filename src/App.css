@@ -13,6 +13,7 @@
     background: #dde1e7;
     border-radius: 15px;
 
+    display: block;
     position: absolute;
     top: 55vh;
     left: 50vw;

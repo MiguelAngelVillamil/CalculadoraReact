@@ -1,4 +1,4 @@
-.botonNumero {
+.botonNumeroVictor {
     height: 70px;
     width: 70px;
     display: flex;
@@ -24,6 +24,6 @@
     box-shadow: -5px -5px 9px rgba(255,255,255,0.45), 5px 5px 9px rgba(94,104,121,0.3);
 }
 
-.botonNumero:hover {
+.botonNumeroVictor:hover {
     box-shadow: inset -5px -5px 9px rgba(255,255,255,0.45), inset 5px 5px 9px rgba(94,104,121,0.3);
 }

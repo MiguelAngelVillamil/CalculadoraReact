@@ -1,11 +1,11 @@
 import React from 'react';
 import './BotonNumero.css'
 
-export default function BotonNumero( {children, manejarClick} ) {
+export default function BotonNumero( {children, manejarClick, clase} ) {
 
   return (
     <button
-      className='botonNumero'
+      className={"botonNumero" + clase}
       onClick={() => manejarClick(children)}
     >
       {children}
