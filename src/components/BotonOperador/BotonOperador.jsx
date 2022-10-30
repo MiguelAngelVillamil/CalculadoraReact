@@ -5,7 +5,7 @@ export default function BotonOperador({children, manejarClick, clase}) {
 
   return(
     <button
-      className={'botonOperador' + clase}
+      className={'botonOperador-' + clase}
       onClick={() => manejarClick(children)}
     >
       {children}

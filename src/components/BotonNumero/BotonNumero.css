@@ -1,53 +1,52 @@
-.botonNumeroVictor {
+.botonNumero-light {
     height: 70px;
     width: 70px;
     display: flex;
     flex: 1 1;
-    
     align-items: center;
     justify-content: center;
-    
     font-family: monospace;
     font-weight: lighter;
     font-size: 35px;
-
-    background: #dde1e7;
-    color: rgb(10, 10, 10);
     border-radius: 70px;
     border: none;
-
     padding: 0px;
     margin: 4px;
     cursor: pointer;
     user-select: none;
-
+    background-color: rgb(224, 224, 224);
+    color: rgb(10, 10, 10);
     box-shadow: -5px -5px 9px rgba(255,255,255,0.45), 5px 5px 9px rgba(94,104,121,0.3);
 }
 
-.botonNumeroAngel {
+.botonNumero-light:hover {
+    box-shadow: inset -2px -5px 5px rgba(255,255,255,0.45), inset 2px 5px 5px rgba(94,104,121,0.3);
+}
+
+/* ---------------------------------------------------------------------------------------------------------- */
+
+.botonNumero-dark {
     height: 70px;
     width: 70px;
     display: flex;
     flex: 1 1;
-
     align-items: center;
     justify-content: center;
-
     font-family: monospace;
     font-weight: lighter;
     font-size: 35px;
-
-    background-color: rgb(31, 31, 31);
-    color: whitesmoke;
     border-radius: 70px;
     border: none;
-
     padding: 0px;
     margin: 4px;
     cursor: pointer;
     user-select: none;
+    color: #fff;
+    background-color: rgb(26, 24, 24);
+    box-shadow: -3px -2px 5px rgb(0, 0, 0), 3px 1px 5px rgba(255, 255, 255, 0.137);
 }
 
-.botonNumeroVictor:hover {
-    box-shadow: inset -5px -5px 9px rgba(255,255,255,0.45), inset 5px 5px 9px rgba(94,104,121,0.3);
+.botonNumero-dark:hover {
+    box-shadow: inset -3px -5px 5px rgb(0, 0, 0), inset 3px 1px 3px rgba(255, 255, 255, 0.096);
 }
+

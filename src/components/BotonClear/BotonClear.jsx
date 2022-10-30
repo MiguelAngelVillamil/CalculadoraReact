@@ -5,7 +5,7 @@ export default function BotonClear( {manejarClick, clase} ) {
 
   return(
     <button
-      className={"botonClear" + clase}
+      className={"botonClear-" + clase}
       onClick={manejarClick}>
       C
     </button>

@@ -1,53 +1,51 @@
-.botonIgualVictor {
+.botonIgual-light {
     height: 70px;
     width: 70px;
     display: flex;
-    flex: 1 1;
-    
+    flex: 1 1;  
     align-items: center;
-    justify-content: center;
-    
-    font-family: monospace;
+    justify-content: center; 
+    font-family: OCR A;
     font-weight: lighter;
     font-size: 35px;
-
-    background: #dde1e7;
-    color: rgb(11, 184, 25);
     border-radius: 70px;
     border: none;
-
     padding: 0px;
     margin: 4px;
     cursor: pointer;
     user-select: none;
+    color: rgb(68, 173, 54);
+    background-color: rgb(224, 224, 224);
     box-shadow: -5px -5px 9px rgba(255,255,255,0.45), 5px 5px 9px rgba(94,104,121,0.3);
 }
 
-.botonIgualAngel {
+.botonIgual-light:hover {
+    box-shadow: inset -2px -5px 5px rgba(255,255,255,0.45), inset 2px 5px 5px rgba(94,104,121,0.3);
+}
+
+/* ---------------------------------------------------------------------------------------------------- */
+
+.botonIgual-dark {
     height: 70px;
     width: 70px;
     display: flex;
     flex: 1 1;
-
     align-items: center;
     justify-content: center;
-
     font-family: monospace;
     font-weight: lighter;
     font-size: 35px;
-
-    background-color: green;
-    color: whitesmoke;
     border-radius: 70px;
     border: none;
-
     padding: 0px;
     margin: 4px;
     cursor: pointer;
     user-select: none;
+    background-color: rgb(26, 24, 24);
+    color: rgb(68, 173, 54);
+    box-shadow: -3px -2px 5px rgb(0, 0, 0), 3px 1px 5px rgba(255, 255, 255, 0.137);
 }
 
-
-.botonIgualVictor:hover {
-    box-shadow: inset -5px -5px 9px rgba(255,255,255,0.45), inset 5px 5px 9px rgba(94,104,121,0.3);
+.botonIgual-dark:hover {
+    box-shadow: inset -3px -5px 5px rgb(0, 0, 0), inset 3px 1px 3px rgba(255, 255, 255, 0.096);
 }

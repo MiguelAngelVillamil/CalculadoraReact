@@ -1,18 +1,16 @@
-.filaVictor {
+.fila-light {
     margin: 4px;
     display: flex;
     align-items: center;
-    justify-content: center;
-
-    background-color: #dde1e7;
+    justify-content: center; 
+    background-color: rgb(224, 224, 224);
 }
 
-.filaAngel {
+.fila-dark {
     margin: 4px;
     display: flex;
     align-items: center;
     justify-content: center;
-
-    background-color: black;
+    background-color: rgb(26, 24, 24);
 }
 

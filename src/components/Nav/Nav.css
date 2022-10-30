@@ -1,4 +1,6 @@
-.nav{
+
+/* End modo light */
+.nav-light{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -15,10 +17,10 @@
     inset 0px 0px 0px 0px #0001,
     inset 0px 0px 0px 0px #fff9,        inset 0px 0px 0px 0px #0001;
     transition:box-shadow 0.6s cubic-bezier(.79,.21,.06,.81);
-    background: #e0e5ec;
+    background-color: rgb(224, 224, 224);
 }
 
-.btn {
+.btn-light {
     padding: 10px 25px;
     font-family: 'Lato', sans-serif;
     font-weight: 500;
@@ -29,12 +31,47 @@
     display: inline-block;
     border: none;
     margin: 90px;
+    box-shadow: -5px -5px 9px rgba(255,255,255,0.45), 5px 5px 9px rgba(94,104,121,0.3);
 }
 
-.btn:hover {
-    box-shadow:
-    -7px -7px 20px 0px #fff9,
-    -4px -4px 5px 0px #fff9,
-    7px 7px 20px 0px #0002,
-    4px 4px 5px 0px #0001;
+.btn-light:hover {
+    box-shadow: inset -2px -5px 5px rgba(255,255,255,0.45), inset 2px 5px 5px rgba(94,104,121,0.3);
+    color: rgba(0, 0, 0, 0.76);
 }
+/* Fin modo light */
+
+/* -------------------------------------------------------------------------------------- */
+/* End modo Dark */
+.nav-dark{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    position: relative;
+    /* background-color: rgb(26, 24, 24);
+    color: #fff;
+    box-shadow: -3px -2px 5px rgb(0, 0, 0), 3px 1px 5px rgba(255, 255, 255, 0.137); */
+}
+
+.btn-dark {
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    border: none;
+    margin: 90px;
+    background-color: rgb(26, 24, 24);
+    color: #fff;
+    box-shadow: -3px -2px 5px rgb(0, 0, 0), 3px 1px 5px rgba(255, 255, 255, 0.137);
+}
+
+.btn-dark:hover {
+    box-shadow: inset -3px -5px 5px rgb(0, 0, 0), inset 3px 1px 3px rgba(255, 255, 255, 0.096);
+}
+/* Fin modo dark */

@@ -3,16 +3,16 @@ import './App.css';
 import Calculadora from './components/Calculadora/Calculadora';
 import Nav from './components/Nav/Nav';
 
-export default function App() {
+export default function App(clase) {
 
   return (
-    <div className="App">
+    <div className="App-light">
       
       <Nav/>
 
       <Routes>
-        <Route path="/victor" element={<Calculadora clase={"Victor"} />} />
-        <Route path="/angel" element={<Calculadora clase={"Angel"} />} />
+        <Route path="/light" element={<Calculadora clase={"light"} />} />
+        <Route path="/dark" element={<Calculadora clase={"dark"} />} />
       </Routes>
     
     </div>

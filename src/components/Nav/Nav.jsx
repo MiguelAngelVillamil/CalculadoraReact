@@ -5,12 +5,12 @@ import './Nav.css'
 export default function Nav() {
 
     return(
-        <nav className='nav'>
-            <Link to="/angel">
-                <button className='btn'>black</button>
+        <nav className='nav-'>
+            <Link to="/dark">
+                <button className='btn-dark'>dark</button>
             </Link>
-            <Link to="/victor">
-                <button className='btn'>white</button>
+            <Link to="/light">
+                <button className='btn-light'>light</button>
             </Link>
         </nav>
     );

@@ -5,7 +5,7 @@ export default function BotonIgual( {manejarClick, clase} ) {
 
   return(
     <button
-      className={"botonIgual" + clase}
+      className={"botonIgual-" + clase}
       onClick={manejarClick}>
       =
     </button>
